@@ -1,8 +1,7 @@
 # Siamese-Disambiguation
 Siamese Networks for Name Disambiguation
 
-# Kaggle link: 
-https://www.kaggle.com/code/irenezheng227/siamese-networks-for-name-disambiguation/edit
+Kaggle link: https://www.kaggle.com/code/irenezheng227/siamese-networks-for-name-disambiguation/edit
 
 Feature: patent_abstract_encoded
 
