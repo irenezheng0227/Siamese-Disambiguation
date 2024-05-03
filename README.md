@@ -3,6 +3,7 @@
 Serial inventors often patent under different names, firms, places, and time periods. Identifying the correct individuals is challenging process and remains to be done for the world’s inventors contained in PATSTAT. The goal of this project is to address the ambiguity issue of inventors in the PATSTAT.
 
 ## 🟠 Previous Approaches:
+[Literature Review](https://docs.google.com/spreadsheets/d/1e07FrbQdlQiu3nRN77nUQymZKbggQNeXPuvibk_Mxx0/edit?usp=sharing)
 ![previous approaches](images/approach.svg)
 
 ## 🟣 Our Solution: Siamese Network
