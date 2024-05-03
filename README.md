@@ -1,22 +1,18 @@
-# Siamese-Disambiguation
-Siamese Networks for Name Disambiguation
+# Disambiguation of the World's Inventors
+Problem Overview:
+Serial inventors often patent under different names, firms, places, and time periods. Identifying the correct individuals is challenging process and remains to be done for the world’s inventors contained in PATSTAT. The goal of this project is to address the ambiguity issue of inventors in the PATSTAT.
 
-Kaggle link: https://www.kaggle.com/code/irenezheng227/siamese-networks-for-name-disambiguation/edit
+Previous Approaches:
 
-Feature: patent_abstract_encoded
+Our Solution: Siamese Network
+Previous studies propose various strategies for inventor disambiguation, but many rely heavily on pairwise comparisons, which are computationally intensive. To address this, we introduce a deep learning framework based on Siamese Networks. It represents each patent as a vector in a high-dimensional space. Using triplet or contrastive loss, patents by the same individuals are grouped closely, while those by different inventors are visually separated. This approach departs from the pairwise comparison paradigm, leading to advancements in computational efficiency.
 
-4 base models: MLP, CNN, LSTM, RNN
+Procedure Flowchart:
 
-2 different similarity calculations: Euclidean Distance, Cosine Similarity
+Disambiguation Samples (PATSTAT):
 
-Metrics: Silhouette Score, PCA Graph (Clustering)
-         Accuracy, F1 score, AUC, Precision (Pairwise comparison)
-
-Version 2 employs a different data preparation process, where each patent serves as an index in the anchor dataset and 
-is associated with its respective positive and negative indices. This approach tries to maximize the utilization of the input dataset.
-
-
-
+Furture Work: Clustering!
+Inventors in some blocks are still hard to disambiguate even under the pre-trained Siamese Networks model. Thus, in future work, considering a clustering model as a further step can be helpful to finish disambiguating of PATSTAT
 
 
 
