@@ -1,5 +1,5 @@
 # Disambiguation of the World's Inventors
-
+[Slides](https://docs.google.com/presentation/d/1DpYhwj89Shko9z4EXfgrMO8WHEh_3FzGKZzmHCMElgA/edit?usp=sharing)
 Serial inventors often patent under different names, firms, places, and time periods. Identifying the correct individuals is challenging process and remains to be done for the world’s inventors contained in PATSTAT. The goal of this project is to address the ambiguity issue of inventors in the PATSTAT.
 ![problem](images/problem.jpg)
 
